@@ -1,1 +1,1 @@
-zip -r submission.zip *
+zip -r submission.zip justfile *.h *.c

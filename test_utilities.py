@@ -28,7 +28,7 @@ def buildCode() -> Optional[str]:
             return 'Please do not disable warnings.'
 
   # Compile, show output
-  compile_return = runcmd('make')
+  compile_return = runcmd('just build')
   print(compile_return.stdout)
 
   # Make sure that warning causes test to fail
