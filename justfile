@@ -1,7 +1,6 @@
 CC := "clang"
 CFLAGS := "-gdwarf-4"
 SRCS := "linkedlist.c main.c"
-HDRS := "linkedlist.h value.h"
 
 default:
 	just --list
